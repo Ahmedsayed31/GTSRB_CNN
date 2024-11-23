@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text for better readability */
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block;
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue heading */
+}
+
+h2 {
+    color: #27ae60; /* Green for prediction result */
+}
+
+input[type="file"], input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue button background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="file"]:hover, input[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Adding some color to borders and hover effects */
+input[type="submit"] {
+    background-color: #e74c3c; /* Red submit button */
+}
+
+input[type="submit"]:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
